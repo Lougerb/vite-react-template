@@ -1,0 +1,18 @@
+// Media Query
+@mixin mq_pc {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mq_sp {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+// @mixin mq_tab {
+//     @media (min-width: 1281px) and (max-width: 769px) {
+//         @content;
+//     }
+// }
