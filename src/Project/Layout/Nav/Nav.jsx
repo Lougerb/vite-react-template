@@ -23,7 +23,7 @@ function Nav() {
                         <a href="/about/" className="nav-menu__item__anchor">ABOUT</a>
                     </li>
                     <li className="nav-menu__item">
-                        <a href="/products/" className="nav-menu__item__anchor">PRODUCTS</a>
+                        <a href="/product/" className="nav-menu__item__anchor">PRODUCT</a>
                     </li>
                     <li className="nav-menu__item">
                         <a href="/services/" className="nav-menu__item__anchor">SERVICES</a>

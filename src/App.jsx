@@ -6,6 +6,8 @@ import Footer from './Project/Layout/Footer/Footer';
 // Content
 import Home from './Project/Pages/Home/Home';
 import About from './Project/Pages/About/About';
+import Product from './Project/Pages/Product/Product';
+import Services from './Project/Pages/Services/Services';
 import Contact from './Project/Pages/Contact/Contact';
 import NotFound from './Project/Pages/NotFound/NotFound';
 // css
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "/about/",
     element: <About/>,
+  },
+  {
+    path: "/product/",
+    element: <Product/>,
+  },
+  {
+    path: "/services/",
+    element: <Services/>,
   },
   {
     path: "/contact/",
