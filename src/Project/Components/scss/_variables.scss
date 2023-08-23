@@ -4,7 +4,7 @@
 
 
 $font-family: 'Roboto', sans-serif;
-$font-size: 16px;
+$font-size: 10px;
 
 $color1: #707070;
 
@@ -13,18 +13,3 @@ $pc-window-gap: 20px;
 
 $sp-layout-width: 76.8rem;
 $sp-window-gap: 2rem;
-
-// Custom Variables for bootstrap
-@import '../../../../node_modules/bootstrap/scss/_functions';
-@import '../../../../node_modules/bootstrap/scss/_variables';
-
-
-// custom variable
-$custom-grid-breakpoints: (
-    sp: 320px,
-    pc: 768px,
-);
-
-//merging custom variable and default variable
-$grid-breakpoints: map-merge($custom-grid-breakpoints, $grid-breakpoints);
-@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';

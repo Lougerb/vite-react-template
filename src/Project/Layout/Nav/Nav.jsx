@@ -18,7 +18,7 @@ function Nav() {
                         <div className="nav-trigger__line"></div>
                     </div>
                 </div>
-                <ul className="nav-menu d-pc-flex align-items-pc-center justify-content-pc-center">
+                <ul className="nav-menu d-md-flex align-items-md-center justify-content-md-center">
                     <li className="nav-menu__item">
                         <a href="/about/" className="nav-menu__item__anchor">ABOUT</a>
                     </li>
