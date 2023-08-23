@@ -1,3 +1,6 @@
+@use './variables' as *;
+@use './mixin' as *;
+
 // layout
 .layout {
     margin: 0 auto;

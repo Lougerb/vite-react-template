@@ -1,3 +1,6 @@
+@use './variables' as *;
+@use './mixin' as *;
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,7 +21,7 @@ time, mark, audio, video {
 }
 
 html {
-    font: 10px/1.7 $font-family;
+    font: 10px $font-family;
 
 	@include mq_sp {
 		font-size: 2.667vw;

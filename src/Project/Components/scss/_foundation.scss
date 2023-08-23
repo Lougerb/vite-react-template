@@ -1,8 +1,7 @@
 // main styles
-@import './variables';
-@import './mixin';
-@import './base';
-@import './utility';
+
+@forward './base';
+@forward './utility';
 
 // components
-@import './headings';
+@forward './headings';

@@ -1,20 +1,20 @@
 // foundation
-@import './Project/Components/scss/foundation';
+@forward './Project/Components/scss/foundation';
 
 // components
-@import'./Project//Components/Input/Textbox/input-textbox';
-@import'./Project//Components/Input/Checkbox/input-checkbox';
-@import'./Project//Components/Input/Radio/input-radio';
+@use './Project//Components/Input/Textbox/input-textbox';
+@use './Project//Components/Input/Checkbox/input-checkbox';
+@use './Project//Components/Input/Radio/input-radio';
 // layout
-@import './Project/Layout/Footer/Footer';
-@import './Project/Layout/Header/Header';
-@import './Project/Layout/Nav/Nav';
+@import  './Project/Layout/Header/Header';
+@import  './Project/Layout/Footer/Footer';
+@import  './Project/Layout/Nav/Nav';
 
 // pages
-@import './Project/Pages/About/About';
-@import './Project/Pages/Home/Home';
-@import './Project/Pages/Contact/Contact';
-@import './Project/Pages/NotFound/NotFound';
+@import  './Project/Pages/About/About';
+@import  './Project/Pages/Home/Home';
+@import  './Project/Pages/Contact/Contact';
+@import  './Project/Pages/NotFound/NotFound';
 
 .app {
     display: block;
