@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    &-logo {
+        &__anchor {
+            display: block;
+            text-decoration: none;
+            color: #333;
+        }
+    }
+}
