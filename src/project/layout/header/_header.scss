@@ -1,13 +1,27 @@
+@use '../../Components/scss/mixin' as *;
+@use '../../Components/scss/variables' as *;
+
 .header {
-    display: flex;
-    justify-content: space-between;
+    display: block;
     width: 100%;
-    
+    padding: 2rem;
+    border-bottom: 1px solid #707070;
+
+    .head1 {
+        font-size: 0;
+    }
+
     &-logo {
-        &__anchor {
-            display: block;
-            text-decoration: none;
-            color: #333;
+        display: inline-block;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        img {
+            @include mq_sp {
+                width: 14.5rem;
+            }
         }
     }
 }

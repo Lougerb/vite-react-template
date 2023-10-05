@@ -1,10 +1,15 @@
-import Nav from "../nav/Nav"
+import logo from './img/pc/logo-header.svg';
 
-export default function Header() {
-    return <header className="header position-fixed">
-        <h1 className="header-logo">
-            <a href="/" className="header-logo__anchor">LOGO</a>
-        </h1>
-        <Nav />
-    </header>
+function Header() {
+    return (
+        <header className="header">
+            <h1 className="head1">
+                <a href="/" className="header-logo">
+                    <img src={logo} alt="" />
+                </a>
+            </h1>
+        </header>
+    );
 }
+
+export default Header;

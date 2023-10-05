@@ -14,16 +14,18 @@ $sp-layout-width: 76.8rem;
 $sp-window-gap: 2rem;
 
 // Custom Variables for bootstrap
-@import '../../../../node_modules/bootstrap/scss/_functions';
-@import '../../../../node_modules/bootstrap/scss/_variables';
+@import 'bootstrap/scss/_functions';
+@import 'bootstrap/scss/_variables';
 
-
-// custom variable
-$custom-grid-breakpoints: (
-    sp: 320px,
-    pc: 768px,
+$grid-breakpoints: (
+  xs: 0, //default grid-breakpoint
+  sp: 320px, //custom grid-breakpoint
+  sm: 576px, //default grid-breakpoint
+  md: 768px, //default grid-breakpoint
+  pc: 769px, //custom grid-breakpoint
+  lg: 992px, //default grid-breakpoint
+  xl: 1200px, //default grid-breakpoint
+  xxl: 1400px  //default grid-breakpoint
 );
 
-//merging custom variable and default variable
-$grid-breakpoints: map-merge($custom-grid-breakpoints, $grid-breakpoints);
-@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap.scss';   

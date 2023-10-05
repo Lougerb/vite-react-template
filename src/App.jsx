@@ -12,13 +12,13 @@ import Contact from './Project/Pages/Contact/Contact';
 import NotFound from './Project/Pages/NotFound/NotFound';
 // css
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'sanitize.css';
 import favico from './Project/Components/img/favico.png';
 
 // Packages
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import {Helmet} from 'react-helmet';
 import './App.scss'
+import 'sanitize.css';
 
 
 const router = createBrowserRouter([
@@ -48,6 +48,11 @@ const router = createBrowserRouter([
   },
 ]);
 
+const siteName = 'Sample Title';
+const siteDesc = 'Sample Description';
+const siteKeywords = 'Sample Keywords';
+const siteType = 'Sample Type';
+
 function App() {
 
   return (
@@ -58,18 +63,16 @@ function App() {
         {/* Meta Tags */}
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width"/>
-        <title>Home</title>
+        <title>{siteName}</title>
         <link rel="icon" href={favico} />
-        <meta name="description" content="{{ $site.description }}"/>
-        <meta name="keywords" content="{{ $site.keywords }}"/>
+        <meta name="description" content={siteDesc}/>
+        <meta name="keywords" content={siteKeywords}/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
-        <meta property="og:title" content="{{ $site.title }}"/>
-        <meta property="og:type" content="{{ $site.type }}"/>
-        <meta property="og:url" content="{{ $define.FEGG_HTTP_DOMAIN }}/{{ $site.url }}"/>
-        <meta property="og:description" content="{{ $site.description }}"/>
-        <meta property="og:site_name" content="{{ $site.name }}"/>
-        <meta property="og:image" content="{{ $define.FEGG_HTTP_DOMAIN }}/{{ $site.image }}"/>
+        <meta property="og:title" content={siteName}/>
+        <meta property="og:type" content={siteType}/>
+        <meta property="og:description" content={siteDesc}/>
+        <meta property="og:site_name" content={siteName}/>
     </Helmet>
 
     <Header />
