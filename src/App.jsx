@@ -1,16 +1,16 @@
 
-// Layout
-import Nav from './Project/Layout/Nav/Nav';
-import Header from './Project/Layout/Header/Header';
-import Footer from './Project/Layout/Footer/Footer';
+// layout
+import Nav from './project/layout/Nav/Nav';
+import Header from './project/layout/Header/Header';
+import Footer from './project/layout/Footer/Footer';
 
 // Content
-import Home from './Project/Pages/Home/Home';
-import About from './Project/Pages/About/About';
-import Product from './Project/Pages/Product/Product';
-import Services from './Project/Pages/Services/Services';
-import Contact from './Project/Pages/Contact/Contact';
-import NotFound from './Project/Pages/NotFound/NotFound';
+import Home from './project/pages/Home/Home';
+import About from './project/pages/About/About';
+import Product from './project/pages/Product/Product';
+import Services from './project/pages/Services/Services';
+import Contact from './project/pages/Contact/Contact';
+import NotFound from './project/pages/NotFound/NotFound';
 
 // Packages
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
