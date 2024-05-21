@@ -9,7 +9,8 @@ export default defineConfig({
 	plugins: [react()],
 	resolve: {
 		alias: {
-			'@': path.resolve(__dirname, 'src'),
+			'@Project': path.resolve(__dirname, './src/Project'),
+			'@Assets': path.resolve(__dirname, './src/assets'),
 		},
 	},
 	assetsInclude: ["**/*.riv"],
