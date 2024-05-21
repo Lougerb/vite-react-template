@@ -17,7 +17,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import favico from '@Assets/img/favico.png';
 
-const baseUrl = '/vite-react-template/';
+const baseUrl = '/tite/';
 
 const router = createBrowserRouter([
   {
