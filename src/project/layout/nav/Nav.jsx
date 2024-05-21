@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-// import NavItem from "./Component/NavItem";
+import NavItem from "./Component/NavItem";
 
 function Nav({baseUrl}) {
 
@@ -21,10 +21,10 @@ function Nav({baseUrl}) {
                     </div>
                 </div>
                 <ul className="nav-menu ">
-                    {/* <NavItem link={baseUrl+"about/"} name="ABOUT"/>
+                    <NavItem link={baseUrl+"about/"} name="ABOUT"/>
                     <NavItem link={baseUrl+"product/"} name="PRODUCT"/>
                     <NavItem link={baseUrl+"services/"} name="SERVICES"/>
-                    <NavItem link={baseUrl+"contact/"} name="CONTACT"/> */}
+                    <NavItem link={baseUrl+"contact/"} name="CONTACT"/>
                 </ul>
             </div>
         </nav>

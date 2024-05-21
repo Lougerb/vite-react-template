@@ -1,8 +1,6 @@
 
 // Layout
-import Nav from './project/layout/Nav/Nav';
-// /Users/kathuelar/Virtual/gerald/vite-react-template/src/Project/Layout/Nav/Nav.jsx
-// /Users/kathuelar/Virtual/gerald/vite-react-template/src/project/layout/Nav/Nav.jsx
+// import Nav from './Project/Layout/Nav/Nav';
 import Header from './Project/Layout/Header/Header';
 import Footer from './Project/Layout/Footer/Footer';
 
@@ -83,7 +81,7 @@ function App() {
 
     <Header />
     
-    <Nav baseUrl={baseUrl}/>
+    {/* <Nav baseUrl={baseUrl}/> */}
 
     <div className="main">
         <RouterProvider router={router} />
