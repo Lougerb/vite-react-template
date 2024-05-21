@@ -4,8 +4,8 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="layout">
-                <div className="footer-wrapper d-lg-flex align-items-start justify-content-between">
-                    <div className="footer-cont1 d-flex align-items-start">
+                <div className="footer-wrapper ">
+                    <div className="footer-cont1">
                         <a href="/" className="footer-cont1__logo">
                             <img src={logo} alt="" />
                         </a>
@@ -15,7 +15,7 @@ function Footer() {
                             <p className="footer-cont1__info__txt">Fax: 123-456-789</p>
                         </div>
                     </div>
-                    <div className="footer-cont2 d-flex align-content-start">
+                    <div className="footer-cont2">
                         <ul className="footer-cont2__list">
                             <li className="footer-cont2__item">
                                 <a href="/about/" className="footer-cont2__item__anchor">About</a>

@@ -1,0 +1,13 @@
+// foundation
+@import url(sanitize.css);
+@import './foundation/foundation';
+@import '../project/project';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+    display: block;
+    position: relative;
+}

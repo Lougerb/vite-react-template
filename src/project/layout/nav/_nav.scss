@@ -1,6 +1,3 @@
-@use '../../Components/scss/mixin' as *;
-@use '../../Components/scss/variables' as *;
-
 .nav {
     display: block;
     position: absolute;
@@ -8,7 +5,6 @@
     right: 2rem;
     height: 10rem;
     width: auto;
-    // background-color: red;
 
     @include mq_sp {
         right: 0;
@@ -90,8 +86,12 @@
     }
 
     &-menu {
-        height: 100%;
-        
+        @include mq_pc {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
         @include mq_sp {
             $navMenuWidth: 20rem;
             margin-right: -$navMenuWidth;
