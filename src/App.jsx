@@ -1,8 +1,8 @@
 
 // Layout
-import Nav from './project/layout/Nav/Nav';
-import Header from './project/layout/Header/Header';
-import Footer from './project/layout/Footer/Footer';
+import Nav from './project/layout/nav/nav';
+import Header from './project/layout/header/Header';
+import Footer from './project/layout/footer/Footer';
 
 // Content
 import Home from './project/pages/Home/Home';
