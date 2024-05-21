@@ -15,7 +15,7 @@ import NotFound from './Project/Pages/NotFound/NotFound';
 // Packages
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import favico from '@Assets/img/favico.png';
+import favico from './assets/img/favico.png';
 
 const baseUrl = '/vite-react-template/';
 
