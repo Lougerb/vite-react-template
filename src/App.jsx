@@ -1,21 +1,21 @@
 
 // Layout
-import Nav from './Project/Layout/Nav/Nav';
-import Header from './Project/Layout/Header/Header';
-import Footer from './Project/Layout/Footer/Footer';
+import Nav from '/Project/Layout/Nav/Nav';
+import Header from '/Project/Layout/Header/Header';
+import Footer from '/Project/Layout/Footer/Footer';
 
 // Content
-import Home from './Project/Pages/Home/Home';
-import About from './Project/Pages/About/About';
-import Product from './Project/Pages/Product/Product';
-import Services from './Project/Pages/Services/Services';
-import Contact from './Project/Pages/Contact/Contact';
-import NotFound from './Project/Pages/NotFound/NotFound';
+import Home from '/Project/Pages/Home/Home';
+import About from '/Project/Pages/About/About';
+import Product from '/Project/Pages/Product/Product';
+import Services from '/Project/Pages/Services/Services';
+import Contact from '/Project/Pages/Contact/Contact';
+import NotFound from '/Project/Pages/NotFound/NotFound';
 
 // Packages
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import favico from './assets/img/favico.png';
+import favico from '/assets/img/favico.png';
 
 
 const router = createBrowserRouter([
