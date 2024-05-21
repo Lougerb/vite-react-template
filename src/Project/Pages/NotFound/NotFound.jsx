@@ -1,4 +1,4 @@
-function About() {
+function NotFound() {
     return ( 
         <div className="notfound">
             <div className="layout">
@@ -8,4 +8,4 @@ function About() {
      );
 }
 
-export default About;
+export default NotFound;

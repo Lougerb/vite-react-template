@@ -1,12 +1,13 @@
-import {Helmet} from 'react-helmet';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function About() {
     return ( 
         <div className="about">
-
-            <Helmet>
-                <title>About</title>
-            </Helmet>
+            <HelmetProvider>
+                <Helmet>
+                    <title>About</title>
+                </Helmet>
+            </HelmetProvider>
             <div className="layout">
                 <section className="about-cont__sec">
                     <div className="about-cont__wrapper">

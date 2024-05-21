@@ -1,4 +1,4 @@
-import {Helmet} from 'react-helmet';
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Product() {
     return ( 
@@ -6,10 +6,12 @@ function Product() {
         <div className="product">
 
             {/* Head */}
-            <Helmet>
-                {/* Meta Tags */}
-                <title>Product</title>
-            </Helmet>
+            
+            <HelmetProvider>
+                <Helmet>
+                    <title>Product</title>
+                </Helmet>
+            </HelmetProvider>
 
             <div className="layout">
                 <div className="product-cont">

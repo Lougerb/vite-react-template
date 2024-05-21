@@ -1,14 +1,16 @@
 import Textbox from "../../Components/Input/Textbox/Textbox";
 import Radio from "../../Components/Input/Radio/Radio";
 import Checkbox from "../../Components/Input/Checkbox/Checkbox";
-import Helmet from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 
 function Contact() {
     return ( 
         <div className="contact">
+        <HelmetProvider>
             <Helmet>
                 <title>Contact</title>
             </Helmet>
+        </HelmetProvider>
 
             <div className="layout">
                 <h2 className="head2">Contact</h2>
