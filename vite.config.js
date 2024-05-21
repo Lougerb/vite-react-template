@@ -10,7 +10,7 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			src: "/src",
-			'@ProjectLayout': path.resolve(__dirname, './src/Project/Layout'),
+			'@ProjectLayout': path.resolve(__dirname, 'src/Project/Layout'),
 			// '@Assets': path.resolve(__dirname, './src/assets'),
 		},
 	},
