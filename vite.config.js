@@ -10,8 +10,8 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			src: "/src",
-			'@Project': path.resolve(__dirname, './src/tite'),
-			'@Assets': path.resolve(__dirname, './src/assets'),
+			'@Project': path.resolve(__dirname, '/src/Project'),
+			'@Assets': path.resolve(__dirname, '/src/assets'),
 		},
 	},
 	assetsInclude: ["**/*.riv"],
