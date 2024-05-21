@@ -5,10 +5,11 @@ import path from 'node:path';
 // For github purposes: index page is /portfolio-renew/
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: '/tite/',
+	base: '/vite-react-template/',
 	plugins: [react()],
 	resolve: {
 		alias: {
+			src: "/src",
 			'@Project': path.resolve(__dirname, './src/Project'),
 			'@Assets': path.resolve(__dirname, './src/assets'),
 		},
